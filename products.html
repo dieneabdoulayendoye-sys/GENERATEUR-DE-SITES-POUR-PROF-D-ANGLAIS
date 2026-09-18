@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ressources | GENERATEUR DE SITES D'ANGLAIS</title>
+    <meta name="description" content="Ressources conçues pour les professeurs d’anglais : devoirs, plans de cours, leçons, grammaire, realia et supports pédagogiques." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand" aria-label="Logo GENERATEUR DE SITES D'ANGLAIS">
+          <span class="brand-mark">G</span>
+          <div>
+            <strong>GENERATEUR</strong>
+            <small>DE SITES D'ANGLAIS</small>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="index.html">Accueil</a>
+          <a href="products.html">Ressources</a>
+          <a href="about.html">À propos</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="btn btn-primary" href="contact.html">Créer mes supports</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="products-section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Sites à vendre</span>
+              <h2>Modèles de sites web prêts à personnaliser</h2>
+            </div>
+            <div class="search-wrap">
+              <input id="searchInput" type="search" placeholder="Rechercher un modèle..." aria-label="Rechercher un modèle" />
+            </div>
+          </div>
+
+          <div class="filter-bar" aria-label="Catégories de sites">
+            <button class="filter-btn active" type="button" data-filter="Tous">Tous</button>
+            <button class="filter-btn" type="button" data-filter="Site vitrine">Site vitrine</button>
+            <button class="filter-btn" type="button" data-filter="Académique">Académique</button>
+            <button class="filter-btn" type="button" data-filter="Portfolio">Portfolio</button>
+            <button class="filter-btn" type="button" data-filter="Boutique">Boutique</button>
+            <button class="filter-btn" type="button" data-filter="Blog">Blog</button>
+          </div>
+
+          <div id="productGrid" class="product-grid" aria-live="polite"></div>
+          <div id="noResults" class="no-results hidden">Aucune ressource ne correspond à votre recherche.</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 GENERATEUR DE SITES D'ANGLAIS.</p>
+        <a href="mailto:dieneabdoulayendoye@gmail.com">dieneabdoulayendoye@gmail.com</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
