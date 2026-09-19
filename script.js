@@ -1,45 +1,45 @@
 const products = [
   {
-    title: 'Site vitrine pour entreprise',
-    category: 'Site vitrine',
-    tag: 'Modèle prêt',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80',
-    description: 'Accueil, services, témoignages et contact prêts à recevoir votre contenu. Plusieurs pages vierges à personnaliser.'
-  },
-  {
-    title: 'Site de formation / école',
-    category: 'Académique',
-    tag: 'À personnaliser',
+    title: 'Plan de cours – Present Simple',
+    category: 'Cours',
+    tag: 'Prêt à utiliser',
     image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80',
-    description: 'Pages d’accueil, des cours, à propos et inscription laissées vides pour transférer vos informations.'
+    description: 'Séquence complète sur le présent simple avec objectifs, activités, correction et évaluation.'
   },
   {
-    title: 'Portfolio créatif',
-    category: 'Portfolio',
-    tag: 'Disponible',
-    image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80',
-    description: 'Structure moderne avec galerie, bio, réalisations et contact. Vous ajoutez votre contenu ensuite.'
+    title: 'Leçon de grammaire – Articles',
+    category: 'Grammaire',
+    tag: 'Généré',
+    image: 'https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80',
+    description: 'Explication claire, exemples, exercices et fiche de révision sur l’usage des articles.'
   },
   {
-    title: 'Boutique de produits',
-    category: 'Boutique',
-    tag: 'Élégant',
-    image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80',
-    description: 'Pages de produits, panier, catégories et FAQ vides afin de remplacer les contenus par les vôtres.'
+    title: 'Devoir d’anglais – Reading Comprehension',
+    category: 'Devoirs',
+    tag: 'Niveau A2',
+    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80',
+    description: 'Texte de compréhension, questions, réponses et fiche d’exploitation pédagogique.'
   },
   {
-    title: 'Blog / média',
-    category: 'Blog',
-    tag: 'Flexible',
-    image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80',
-    description: 'Une mise en page moderne pour articles, services et contact avec espaces vierges à remplir.'
+    title: 'Support visuel – Vocabulary Builder',
+    category: 'Vocabulaire',
+    tag: 'Classique',
+    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80',
+    description: 'Liste de mots, contextes, cartes visuelles et activités pour enrichir le vocabulaire.'
   },
   {
-    title: 'Site institutionnel',
-    category: 'Site vitrine',
+    title: 'Leçon orale – Speaking Practice',
+    category: 'Oral',
+    tag: 'Interactif',
+    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80',
+    description: 'Activités de conversation, consignes, fiches d’échange et mini quiz oral.'
+  },
+  {
+    title: 'Évaluation – English Test Pack',
+    category: 'Évaluation',
     tag: 'Premium',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80',
-    description: 'Pages d’accueil, mission, équipe et contact prêtes à recevoir votre identité et vos informations.'
+    image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80',
+    description: 'Test de grammaire, compréhension, vocabulaire et rédaction prêt à imprimer.'
   }
 ];
 
