@@ -1,45 +1,45 @@
 const products = [
   {
-    title: 'Plan de cours – Present Simple',
+    title: 'Plan de cours – Sixième',
     category: 'Cours',
-    tag: 'Prêt à utiliser',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80',
-    description: 'Séquence complète sur le présent simple avec objectifs, activités, correction et évaluation.'
+    tag: '6e',
+    image: 'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80',
+    description: 'Séquence complète pour la sixième avec objectifs, activités et évaluation en anglais.'
   },
   {
-    title: 'Leçon de grammaire – Articles',
+    title: 'Leçon de grammaire – Troisième',
     category: 'Grammaire',
-    tag: 'Généré',
-    image: 'https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80',
-    description: 'Explication claire, exemples, exercices et fiche de révision sur l’usage des articles.'
-  },
-  {
-    title: 'Devoir d’anglais – Reading Comprehension',
-    category: 'Devoirs',
-    tag: 'Niveau A2',
+    tag: '3e',
     image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80',
-    description: 'Texte de compréhension, questions, réponses et fiche d’exploitation pédagogique.'
+    description: 'Explication claire sur les règles de grammaire avec exemples et exercices adaptés au niveau.'
   },
   {
-    title: 'Support visuel – Vocabulary Builder',
+    title: 'Devoir d’anglais – Seconde',
+    category: 'Devoirs',
+    tag: '2nde',
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80',
+    description: 'Texte de compréhension, questions, réponses et fiche d’exploitation pédagogique pour élèves de seconde.'
+  },
+  {
+    title: 'Support visuel – Vocabulaire 5e',
     category: 'Vocabulaire',
-    tag: 'Classique',
+    tag: '5e',
     image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80',
-    description: 'Liste de mots, contextes, cartes visuelles et activités pour enrichir le vocabulaire.'
+    description: 'Liste de mots, contextes, cartes visuelles et activités pour enrichir le vocabulaire des élèves.'
   },
   {
-    title: 'Leçon orale – Speaking Practice',
+    title: 'Leçon orale – Première',
     category: 'Oral',
-    tag: 'Interactif',
-    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80',
-    description: 'Activités de conversation, consignes, fiches d’échange et mini quiz oral.'
+    tag: '1ère',
+    image: 'https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80',
+    description: 'Activités de conversation, consignes et mini quiz oral en anglais pour classes de lycée.'
   },
   {
-    title: 'Évaluation – English Test Pack',
+    title: 'Évaluation – Terminale',
     category: 'Évaluation',
-    tag: 'Premium',
+    tag: 'Tle',
     image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80',
-    description: 'Test de grammaire, compréhension, vocabulaire et rédaction prêt à imprimer.'
+    description: 'Test de grammaire, compréhension, vocabulaire et rédaction prêt à utiliser en terminale.'
   }
 ];
 
